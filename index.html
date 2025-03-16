@@ -1,0 +1,430 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Npm-Install-Ayodeji</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <div class="modal-overlay"></div>
+    <header id="home">
+        <div class="header-content">
+            <div class="site-logo">
+                <p>&lt;Ayodeji/&gt;</p>
+                </p>
+            </div>
+            <div class="site-nav">
+                <ul>
+                    <li><a id="clicked" class="nav-link" href="#home">Home</a></li>
+                    <li><a id="non-clicked" class="nav-link" href="#about">About Me</a></li>
+                    <li><a id="non-clicked" class="nav-link" href="#projects">Projects</a></li>
+                    <li><a id="non-clicked" class="nav-link" href="#contact">Contact Me</a></li>
+                </ul>
+            </div>
+            <div class="desktop-site-nav">
+                <ul>
+                    <li><a id="clicked" class="nav-link" href="#home">Home</a></li>
+                    <li><a id="non-clicked" class="nav-link" href="#about">About Me</a></li>
+                    <li><a id="non-clicked" class="nav-link" href="#projects">Projects</a></li>
+                    <li><a id="non-clicked" class="nav-link" href="#contact">Contact Me</a></li>
+                </ul>
+            </div>
+            <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </header>
+    <section>
+        <div class="hero-section">
+            <p class="hi-intro">Hi, I am </p>
+            <div class="name-div">
+                <p class="name">
+                    Ayodeji
+                    <!-- <span>A</span>
+                    <span>y</span>
+                    <span>o</span>
+                    <span>d</span>
+                    <span>e</span>
+                    <span>j</span>
+                    <span>i</span> -->
+                </p>
+            </div>
+            <p class="brief-intro">I consider myself a fine frontend developer who does not just bring designs to life
+                but also frequently
+                solve problems and develop functional products.
+                With a background in Physics, I bring a mix of logic, creativity, and technical expertise to
+                every project.
+                <!-- I love tackling challenges—whether it's optimizing performance, refining UI/UX, or making
+                a website pixel-perfect.( as they do say, "a bug a day keeps the doctor away"). -->
+                <!-- When I'm not coding, you’ll probably find me exploring a new tech, playing games, or
+                debugging something that was working five minutes ago. -->
+
+                Let’s build something amazing together!
+            </p>
+            <div class="cta-buttons">
+                <button class="view-btn">Read More</button>
+                <button class="cv-btn">My CV</button>
+            </div>
+        </div>
+    </section>
+    <section class="stack-section">
+        <div class="stack-div">
+            <p class="stack-head">Tech <span>Stack</span></p>
+            <div class="stack-box">
+                <div class="stack-card">
+                    <div><img id="stack-img" src="/images/html5-original.svg"></div>
+                    <div>
+                        <p>HTML</p>
+                    </div>
+                </div>
+                <div class="stack-card">
+                    <div><img id="stack-img" src="/images/css3-original.svg"></div>
+                    <div>
+                        <p>CSS</p>
+                    </div>
+                </div>
+                <div class="stack-card">
+                    <div><img id="stack-img" src="/images/javascript-original.svg"></div>
+                    <div>
+                        <p>JavaScript</p>
+                    </div>
+                </div>
+                <div class="stack-card">
+                    <div><img id="stack-img" src="/images/git-original.svg"></div>
+                    <div>
+                        <p>Git</p>
+                    </div>
+                </div>
+                <div class="stack-card">
+                    <div><img id="stack-img" src="/images/tailwind-css.svg"></div>
+                    <div>
+                        <p>Tailwind CSS</p>
+                    </div>
+                </div>
+                <div class="stack-card">
+                    <div><img id="stack-img" src="/images/react-original.svg"></div>
+                    <div>
+                        <p>React</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="projects">
+        <div class="featured-div">
+            <p class="stack-head">Featured <span>Projects</span></p>
+            <div class="projects-container">
+                <div class="project">
+                    <h5>Moneva</h5>
+                    <div>
+                        <div class="moneva-img-div"><img id="moneva-img" src="/images/hero frame 1.png"></div>
+                        <div class="title">
+                            <p class="title-text">An AI-powered budgeting tool for personalized expense tracking and
+                                financial insights</p>
+                            <p class="key-features">Key Features:</p>
+                            <div>
+                                <ul class="feature-list">
+                                    <li>AI powered</li>
+                                    <li>Automatic syncing with bank accounts, credit cards and investments</li>
+                                    <li>Supports multi-currency feature</li>
+                                    <li>Financial reports with charts and insights</li>
+                                </ul>
+                            </div>
+                            <p class="key-features">Tech stack:</p>
+                            <div class="stack-buttons-div">
+                                <button class="stack-btn">HTML</button>
+                                <button class="stack-btn">CSS</button>
+                                <button class="stack-btn">JavaScript</button>
+                            </div>
+                            <div class="live-repo-div">
+                                <a href="https://moneva.vercel.app/"><button class="live-btn">View Live</button></a>
+                                <a href="https://github.com/Thimmzie/Moneva-Team-2"><button
+                                        class="repo-btn">Repository</button></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="project">
+                    <h5>$Dong</h5>
+                    <div>
+                        <div class="moneva-img-div"><img id="moneva-img" src="/images/Screenshot (268).png"></div>
+                        <div class="title">
+                            <p class="title-text">A web 3 project that focuses on creation of wealth through acquisition
+                                of tokens</p>
+                            <p class="key-features">Key Features:</p>
+                            <div>
+                                <ul class="feature-list">
+                                    <li>Redefined data ownership</li>
+                                    <li>Decentralization</li>
+                                    <li>Wallet Connection</li>
+                                    <li>Blockchain technology</li>
+                                </ul>
+                            </div>
+                            <p class="key-features">Tech stack:</p>
+                            <div class="stack-buttons-div">
+                                <button class="stack-btn">HTML</button>
+                                <button class="stack-btn">CSS</button>
+                                <button class="stack-btn">JavaScript</button>
+                            </div>
+                            <div class="live-repo-div">
+                                <a href="https://dong.finance/"> <button class="live-btn">View Live</button></a>
+                                <a href="https://github.com/Thimmzie/-Dong"><button
+                                        class="repo-btn">Repository</button></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="project">
+                    <h5>To-Do-App</h5>
+                    <div>
+                        <div class="moneva-img-div"><img id="moneva-img" src="/images/Screenshot (269).png"></div>
+                        <div class="title">
+                            <p class="title-text">A web app that helps users keep track of tasks that needs to be
+                                completed</p>
+                            <p class="key-features">Key Features:</p>
+                            <div>
+                                <ul class="feature-list">
+                                    <li>Addition of new tasks</li>
+                                    <li>Memory storage</li>
+                                    <li>Edit or delete tasks</li>
+                                    <li>A recycle bin for completed tasks</li>
+                                </ul>
+                            </div>
+                            <p class="key-features">Tech stack:</p>
+                            <div class="stack-buttons-div">
+                                <button class="stack-btn">HTML</button>
+                                <button class="stack-btn">CSS</button>
+                                <button class="stack-btn">JavaScript</button>
+                            </div>
+                            <div class="live-repo-div">
+                                <a href="https://thimmzie.github.io/To-do-App/"><button class="live-btn">View
+                                        Live</button></a>
+                                <a href="https://github.com/Thimmzie/To-do-App"><button
+                                        class="repo-btn">Repository</button></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="project">
+                    <h5>WeBudget</h5>
+                    <div>
+                        <div class="moneva-img-div"><img id="moneva-img" src="/images/Screenshot (271).png"></div>
+                        <div class="title">
+                            <p class="title-text">A web app that enhances expense tracking and bills-splitting payment
+                                between couples or a group of people</p>
+                            <p class="key-features">Key Features:</p>
+                            <div>
+                                <ul class="feature-list">
+                                    <li>SMS transaction tracking</li>
+                                    <li>Receipt uploads</li>
+                                    <li>Bank syncing</li>
+                                    <li>Split and settle</li>
+                                </ul>
+                            </div>
+                            <p class="key-features">Tech stack:</p>
+                            <div class="stack-buttons-div">
+                                <button class="stack-btn">HTML</button>
+                                <button class="stack-btn">CSS</button>
+                                <button class="stack-btn">JavaScript</button>
+                            </div>
+                            <div class="live-repo-div">
+                                <a href="https://webudget-rose.vercel.app/"><button class="live-btn">View
+                                        Live</button></a>
+                                <a href="https://github.com/Thimmzie/Webudget"><button
+                                        class="repo-btn">Repository</button></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="project">
+                    <h5>Guessy</h5>
+                    <div>
+                        <div class="moneva-img-div"><img id="moneva-img" src="/images/Screenshot (272).png"></div>
+                        <div class="title">
+                            <p class="title-text">A guessing game web app, that allows users to guess numbers within a
+                                range and give them real - time results </p>
+                            <p class="key-features">Key Features:</p>
+                            <div>
+                                <ul class="feature-list">
+                                    <li>Prompts after every trial</li>
+                                    <li>Gives hint per trial</li>
+                                    <li>Records scores</li>
+                                </ul>
+                            </div>
+                            <p class="key-features">Tech stack:</p>
+                            <div class="stack-buttons-div">
+                                <button class="stack-btn">HTML</button>
+                                <button class="stack-btn">CSS</button>
+                                <button class="stack-btn">JavaScript</button>
+                            </div>
+                            <div class="live-repo-div">
+                                <a href="https://thimmzie.github.io/Guessy/"><button class="live-btn">View
+                                        Live</button></a>
+                                <a href="https://github.com/Thimmzie/Guessy"><button
+                                        class="repo-btn">Repository</button></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="about">
+        <div class="about-me">
+            <p class="stack-head-two">About <span>Me</span></p>
+            <div>
+                <div>
+                    <p class="sub-div-head">Background</p>
+                    <p class="brief-intro-two">I consider myself a fine frontend developer who does not just bring
+                        designs
+                        to
+                        life
+                        but also frequently
+                        solve problems and develop functional products.
+                        With a background in Physics, I bring a mix of logic, creativity, and technical expertise to
+                        every project.I love tackling challenges—whether it's optimizing performance, refining UI/UX, or
+                        making
+                        a website pixel-perfect.( as they do say, "a bug a day keeps the doctor away").
+
+                        My journey in the tech world has been fueled by a deep passion for crafting intuitive, engaging,
+                        and
+                        impactful digital
+                        experiences. From transforming creative ideas into seamless user interfaces to optimizing
+                        functionality
+                        for a smooth
+                        experience, I thrive on the challenge of bringing designs to life through code. Every project I
+                        work
+                        on
+                        is an opportunity to solve real-world problems, enhance usability, and push the
+                        boundaries of
+                        innovation.
+                        When I'm not coding, you’ll probably find me exploring a new tech, playing games, or
+                        debugging something that was working five minutes ago.<br>
+                        Let’s build something amazing together!
+                    </p>
+                </div>
+                <div>
+                    <p class="sub-div-head">Education</p>
+                    <p class="course">Physics Electronics</p>
+                    <p class="school">Federal University of Technology, Akure</p>
+                    <p class="year">2025</p>
+                    <p class="course">Frontend Engineering</p>
+                    <p class="school">Vephla University</p>
+                    <p class="year">2025</p>
+                </div>
+
+            </div>
+            <div class="soft-technical">
+                <div>
+                    <p class="sub-div-head">Technical Skills</p>
+                    <div>
+                        <div class="stack-card-two">
+                            <p>Frontend </p>
+                            <ul class="talents">
+                                <li>HTML5</li>
+                                <li>CSS3</li>
+                                <li>JavaScript</li>
+                                <li>React.Js</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <div>
+                        <p class="sub-div-head">Soft Skills</p>
+                    </div>
+                    <div class="stack-card-three">
+
+                        <div>
+                            <ul class="talents">
+                                <li>Team Collaboration</li>
+                                <li>Problem Solving</li>
+                                <li>Time Management</li>
+                                <li>Good Communication</li>
+                                <li>Adaptability</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="contact">
+        <div class="contact-me">
+            <p class="stack-head-two">Reach <span>Out</span></p>
+            <p class="contact-text">I'm currently open to new opportunities and collaborations. Whether you have a
+                question or just want to
+                say hi, kindly reach out to me through these channels. I'll get
+                back to you!</p>
+
+            <div class="connect-box">
+                <p class="with-me">Connect With Me</p>
+                <div class="big-icon-div">
+                    <div class="icon-div">
+                        <ion-icon class="connect-icon" name="mail-outline"></ion-icon>
+                        <p><a href="mailto:thimmzieayodeji@gmail.com">thimmzieayodeji@gmail.com</a></p>
+                    </div>
+                    <div class="icon-div">
+                        <ion-icon class="connect-icon" name="logo-github"></ion-icon>
+                        <p><a href="https://github.com/Thimmzie">github.com/Thimmzie</a></p>
+                    </div>
+                    <div class="icon-div">
+                        <ion-icon class="connect-icon" name="logo-linkedin"></ion-icon>
+                        <p><a href="http://linkedin.com/in/ayodeji-olupinla-60875b205">linkedin.com/in/ayodeji</a>
+                        </p>
+                    </div>
+                    <div class="icon-div">
+                        <ion-icon class="connect-icon" name="logo-twitter"></ion-icon>
+                        <p><a href="https://x.com/rushhour435?s=21">x.com/rushhour435</a></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <div class="footer">
+            <div class="footer-icons">
+                <div> <a href="mailto:thimmzieayodeji@gmail.com"><ion-icon class="connect-icon"
+                            name="mail-outline"></ion-icon></a></div>
+                <div>
+                    <a href="https://github.com/Thimmzie"><ion-icon class="connect-icon"
+                            name="logo-github"></ion-icon></a>
+                </div>
+                <div>
+                    <a href="http://linkedin.com/in/ayodeji-olupinla-60875b205"><ion-icon class="connect-icon"
+                            name="logo-linkedin"></ion-icon></a>
+                </div>
+                <div>
+                    <a href="https://x.com/rushhour435?s=21"><ion-icon class="connect-icon"
+                            name="logo-twitter"></ion-icon></a>
+                </div>
+            </div>
+            <div>
+                <p>&copy 2025 Ayodeji Olupinla.</p>
+            </div>
+            <div class="footer-menu">
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Projects</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+    <!-- <p>("",() => {Ayodeji});</p> -->
+    <script src="main.js"></script>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+</body>
+
+</html>
