@@ -22,18 +22,18 @@
             </div>
             <div class="site-nav">
                 <ul>
-                    <li><a id="clicked" class="nav-link" href="#home">Home</a></li>
-                    <li><a id="non-clicked" class="nav-link" href="#about">About Me</a></li>
+                    <li><a id="non-clicked" class="nav-link" href="#home">Home</a></li>
                     <li><a id="non-clicked" class="nav-link" href="#projects">Projects</a></li>
+                    <li><a id="non-clicked" class="nav-link" href="#about">About Me</a></li>
                     <li><a id="non-clicked" class="nav-link" href="#contact">Contact Me</a></li>
                 </ul>
             </div>
             <div class="desktop-site-nav">
                 <ul>
-                    <li><a id="clicked" class="nav-link" href="#home">Home</a></li>
-                    <li><a id="non-clicked" class="nav-link" href="#about">About Me</a></li>
-                    <li><a id="non-clicked" class="nav-link" href="#projects">Projects</a></li>
-                    <li><a id="non-clicked" class="nav-link" href="#contact">Contact Me</a></li>
+                    <li><a id="non-clicked" class="desktop-nav-link" href="#home">Home</a></li>
+                    <li><a id="non-clicked" class="desktop-nav-link" href="#projects">Projects</a></li>
+                    <li><a id="non-clicked" class="desktop-nav-link" href="#about">About Me</a></li>
+                    <li><a id="non-clicked" class="desktop-nav-link" href="#contact">Contact Me</a></li>
                 </ul>
             </div>
             <div class="hamburger">
@@ -43,7 +43,8 @@
             </div>
         </div>
     </header>
-    <section>
+    <section id="home">
+        <p class="my">my name</p>
         <div class="hero-section">
             <p class="hi-intro">Hi, I am </p>
             <div class="name-div">
@@ -71,8 +72,9 @@
                 Let’s build something amazing together!
             </p>
             <div class="cta-buttons">
-                <button class="view-btn">Read More</button>
-                <button class="cv-btn">My CV</button>
+                <a href="#about"><button class="view-btn">Read More</button></a>
+                <a href="https://acrobat.adobe.com/id/urn:aaid:sc:EU:a8f3522b-061a-457c-bbc8-e880a656ce46"><button
+                        class="cv-btn">My CV</button></a>
             </div>
         </div>
     </section>
@@ -125,8 +127,8 @@
             <div class="projects-container">
                 <div class="project">
                     <h5>Moneva</h5>
-                    <div>
-                        <div class="moneva-img-div"><img id="moneva-img" src="/images/hero frame 1.png"></div>
+                    <div class="project-img-info">
+                        <div class="moneva-img-div"><img id="diff-img-four" src="/images/hero frame 1.png"></div>
                         <div class="title">
                             <p class="title-text">An AI-powered budgeting tool for personalized expense tracking and
                                 financial insights</p>
@@ -155,8 +157,9 @@
                 </div>
                 <div class="project">
                     <h5>$Dong</h5>
-                    <div>
-                        <div class="moneva-img-div"><img id="moneva-img" src="/images/Screenshot (268).png"></div>
+                    <div class="project-img-info">
+                        <div class="moneva-img-div"><img id="diff-img-four" class="diff-img"
+                                src="/images/Screenshot (268).png"></div>
                         <div class="title">
                             <p class="title-text">A web 3 project that focuses on creation of wealth through acquisition
                                 of tokens</p>
@@ -185,7 +188,7 @@
                 </div>
                 <div class="project">
                     <h5>To-Do-App</h5>
-                    <div>
+                    <div class="project-img-info">
                         <div class="moneva-img-div"><img id="moneva-img" src="/images/Screenshot (269).png"></div>
                         <div class="title">
                             <p class="title-text">A web app that helps users keep track of tasks that needs to be
@@ -216,8 +219,8 @@
                 </div>
                 <div class="project">
                     <h5>WeBudget</h5>
-                    <div>
-                        <div class="moneva-img-div"><img id="moneva-img" src="/images/Screenshot (271).png"></div>
+                    <div class="project-img-info">
+                        <div class="moneva-img-div"><img id="diff-img" src="/images/Screenshot (271).png"></div>
                         <div class="title">
                             <p class="title-text">A web app that enhances expense tracking and bills-splitting payment
                                 between couples or a group of people</p>
@@ -247,8 +250,8 @@
                 </div>
                 <div class="project">
                     <h5>Guessy</h5>
-                    <div>
-                        <div class="moneva-img-div"><img id="moneva-img" src="/images/Screenshot (272).png"></div>
+                    <div class="project-img-info">
+                        <div class="moneva-img-div"><img id="diff-img" src="/images/Screenshot (272).png"></div>
                         <div class="title">
                             <p class="title-text">A guessing game web app, that allows users to guess numbers within a
                                 range and give them real - time results </p>
@@ -275,14 +278,76 @@
                         </div>
                     </div>
                 </div>
+                <div class="project">
+                    <h5>Remita</h5>
+                    <div class="project-img-info">
+                        <div class="moneva-img-div"><img id="diff-img-two" src="/images/Screenshot (273).png"></div>
+                        <div class="title">
+                            <p class="title-text">Remita is a payment solution that helps individuals and business make
+                                and receive payment, pay bills and manage their
+                                finances across multiple banks. This is a recreation</p>
+                            <p class="key-features">Key Features:</p>
+                            <div>
+                                <ul class="feature-list">
+                                    <li>View pay slips</li>
+                                    <li>View comprehensive expense reports</li>
+                                    <li>Generate & track detailed transaction history reports</li>
+                                </ul>
+                            </div>
+                            <p class="key-features">Tech stack:</p>
+                            <div class="stack-buttons-div">
+                                <button class="stack-btn">HTML</button>
+                                <button class="stack-btn">CSS</button>
+                                <button class="stack-btn">JavaScript</button>
+                            </div>
+                            <div class="live-repo-div">
+                                <a href="https://thimmzie.github.io/remitta-recreate/"><button class="live-btn">View
+                                        Live</button></a>
+                                <a href="https://github.com/Thimmzie/remitta-recreate"><button
+                                        class="repo-btn">Repository</button></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="project">
+                    <h5>VBank</h5>
+                    <div class="project-img-info">
+                        <div class="moneva-img-div"><img id="diff-img-three" src="/images/Screenshot (274).png"></div>
+                        <div class="title">
+                            <p class="title-text">A all-in-one digital banking app that gives you unrestricted access to
+                                banking, lifestyle, and investment
+                                features 24/7. This is a recreation</p>
+                            <p class="key-features">Key Features:</p>
+                            <div>
+                                <ul class="feature-list">
+                                    <li>Lending money to firms, customers, and homebuyers.</li>
+                                    <li>Generate virtual cards for online payments</li>
+                                    <li>Automate reoccuring bills</li>
+                                </ul>
+                            </div>
+                            <p class="key-features">Tech stack:</p>
+                            <div class="stack-buttons-div">
+                                <button class="stack-btn">HTML</button>
+                                <button class="stack-btn">CSS</button>
+                                <button class="stack-btn">JavaScript</button>
+                            </div>
+                            <div class="live-repo-div">
+                                <a href="https://thimmzie.github.io/vbank-recreate/"><button class="live-btn">View
+                                        Live</button></a>
+                                <a href="https://github.com/Thimmzie/vbank-recreatep"><button
+                                        class="repo-btn">Repository</button></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </section>
     <section id="about">
         <div class="about-me">
             <p class="stack-head-two">About <span>Me</span></p>
-            <div>
-                <div>
+            <div class="education-background">
+                <div class="education-div">
                     <p class="sub-div-head">Background</p>
                     <p class="brief-intro-two">I consider myself a fine frontend developer who does not just bring
                         designs
@@ -293,7 +358,7 @@
                         With a background in Physics, I bring a mix of logic, creativity, and technical expertise to
                         every project.I love tackling challenges—whether it's optimizing performance, refining UI/UX, or
                         making
-                        a website pixel-perfect.( as they do say, "a bug a day keeps the doctor away").
+                        a website pixel-perfect.( as they do say, "a bug a day keeps the doctor away").<br>
 
                         My journey in the tech world has been fueled by a deep passion for crafting intuitive, engaging,
                         and
@@ -413,10 +478,10 @@
             </div>
             <div class="footer-menu">
                 <ul>
-                    <li><a href="#">Home</a></li>
-                    <li><a href="#">About</a></li>
-                    <li><a href="#">Projects</a></li>
-                    <li><a href="#">Contact</a></li>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#contact">Contact</a></li>
                 </ul>
             </div>
         </div>
